@@ -389,7 +389,7 @@ class Taxinvoice
 	var $issueType;
 	var $issueTiming;
 	var $taxType;
-	var $ivoicerCorpNum;
+	var $invoicerCorpNum;
 	var $invoicerMgtKey;
 	var $invoicerTaxRegID;
 	var $invoicerCorpName;
