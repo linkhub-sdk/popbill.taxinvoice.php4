@@ -258,7 +258,7 @@ class TaxinvoiceService extends PopbillBase {
     
     //세금계산서 요약정보 다량확인 최대 1000건
     function GetInfos($CorpNum,$MgtKeyType,$MgtKeyList = array()) {
-    	if(is_null($MgtKey) || empty($MgtKey)) {
+    	if(is_null($MgtKeyList) || empty($MgtKeyList)) {
     		return new PopbillException('{"code" : -99999999 , "message" : "관리번호가 입력되지 않았습니다."}');
     	}
     	
